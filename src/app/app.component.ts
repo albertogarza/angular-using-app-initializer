@@ -8,7 +8,7 @@ import { InfoService } from './info.service';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  name = 'Angular ' + VERSION.major + ' with APP_INITIALIZER';
 
   constructor(infoService: InfoService) {
     console.log('infoService', infoService.info);
